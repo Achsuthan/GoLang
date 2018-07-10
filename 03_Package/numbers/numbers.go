@@ -9,13 +9,13 @@ import (
 var Number1 int
 var Number2 int
 
-//function must have starting with upercase letter
+//function must have starting with upercase letter; if its in lower case we can access inside the package only
 func SetValues(x int, y int) {
 	Number1 = x
 	Number2 = y
 }
 
-//function must have starting with upercase letter
+//function must have starting with upercase letter; if its in lower case we can access inside the package only
 func PrintValues() {
 	//print the values from add and substract
 
